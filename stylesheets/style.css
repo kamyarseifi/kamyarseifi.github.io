@@ -723,8 +723,8 @@ li.sfHover > a > .sf-sub-indicator { background-position: -10px -100px }
 .portofoliothumb { position: relative; width: 100%; height: 100%; cursor: pointer; border: none; }
 .portofoliothumb:hover { opacity: 1 }
 .portofoliothumb > img { width: 100%!important; height: 250px; }
-a.projectdetail { background: #33877d; color: #fff; padding: 7px 7px 6px 7px; font-size: 12px; border-radius: 3px; -webkit-transition-property: color, background; -webkit-transition-duration: 1s, 1s; text-shadow: 1px 1px 1px #111; }
-.projectdetail:hover { background: #70aba4; color: #fff; text-shadow: 1px 1px 1px #111; }
+a.projectdetail { background: #E21A1A; color: #fff; padding: 7px 7px 6px 7px; font-size: 12px; border-radius: 3px; -webkit-transition-property: color, background; -webkit-transition-duration: 1s, 1s; text-shadow: 1px 1px 1px #111; }
+.projectdetail:hover { background: #E21A1A; color: #fff; text-shadow: 1px 1px 1px #111; }
 .galleryicon { z-index: 0; margin-right: 5px; width: 15px; }
 .portofoliobutton { display: inline-block; *display: inline; padding: 4px 14px; margin-bottom: 0; *margin-left: .3em; font-size: 14px; line-height: 20px; *line-height: 20px; color: #333333; text-align: center; text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75); vertical-align: middle; cursor: pointer; background-color: #f5f5f5; *background-color: #e6e6e6; background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6)); background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6); background-image: -o-linear-gradient(top, #ffffff, #e6e6e6); background-image: linear-gradient(to bottom, #ffffff, #e6e6e6); background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6); background-repeat: repeat-x; border: 1px solid #bbbbbb; *border: 0; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffffff', endColorstr='#ffe6e6e6', GradientType=0); filter: progid:dximagetransform.microsoft.gradient(enabled=false); *zoom: 1; -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05); border-color: #c5c5c5; border-color: rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.15) rgba(0, 0, 0, 0.25); }
 .portofoliobutton:focus { outline: none }
@@ -737,7 +737,7 @@ a.projectdetail { background: #33877d; color: #fff; padding: 7px 7px 6px 7px; fo
 .isotope.no-transition,.isotope.no-transition .isotope-item,.isotope .isotope-item.no-transition { -webkit-transition-duration: 0s; -moz-transition-duration: 0s; -ms-transition-duration: 0s; -o-transition-duration: 0s; transition-duration: 0s; }
 /* 3 columns portofolio special stylesheet */
 .threeportofolio {width:33% !important;}
-.threeimage { height: 170px !important; }
+.threeimage { height: 260px !important; }
 .threedetail {left: 33% !important;}
 .threegallery a{left:70% !important; top:10% !important;}
 .threeoverlay {height:96% !important;}

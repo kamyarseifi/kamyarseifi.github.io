@@ -10,9 +10,10 @@
 <meta charset="utf-8"/>
 <!-- Set the viewport width to device width for mobile -->
 <meta name="viewport" content="width=device-width"/>
-<title>Contact - Kamyar Seifi</title>
+<title>Last Sound - Project Details</title>
 <!-- Included CSS Files-->
 <link rel="stylesheet" href="stylesheets/style.css">
+<link rel="stylesheet" href="stylesheets/nivoslider.css"><!-- nivo slider stylesheet -->
 <link rel="stylesheet" href="stylesheets/skins/teal.css"><!-- skin color -->
 <link rel="stylesheet" href="stylesheets/responsive.css">
 <!-- IE Fix for HTML5 Tags -->
@@ -28,7 +29,7 @@
 		<div class="twelve columns">
 			<img src="images/info.png" class="pics" alt="info">
 			<div class="infotext">
-				 Feel free to contact me for more information. Thank you! 
+				 Please feel free to use my app!
 			</div>
 		</div>
 	</div>
@@ -38,37 +39,44 @@
 </p>
 <!-- HEADER
 ================================================== -->
-<div class="row">
-	<div class="four columns">
-		<div class="logo">
-			<a href="index.html">
-	
-			</a>
+<div class="row">	
+		<div class="four columns">
+			<div class="logo">
+				<a href="index.html"><h4></h4></a>
+			</div>
 		</div>
-	</div>
-	<div class="eight columns noleftmarg">
-		<nav id="nav-wrap">
-		<ul class="nav-bar sf-menu">
-			<li class="current">
-			<a href="index.html">Home</a>
-			</li>
-			<li>
-			<a href="portofolio3.html">Portofolio</a>
-
-			</li>
-			<li>
-			<a href="blogpage3.html">Blog</a>
-			</li>
-		
-			<li>
-			<a href="#">About</a>
-			</li>
-			<li>
-			<a href="contact.html">Contact</a>
-			</li>
-		</ul>
-		</nav>
-	</div>
+		<div class="eight columns noleftmarg">		
+			<nav id="nav-wrap">
+				<ul class="nav-bar sf-menu">
+				
+					<li class="current">
+					<a href="index.html">Home</a>
+					</li>
+					
+					<li>
+					<a href="#">Portofolio</a>
+						
+					</li>
+					
+					<li>
+					<a href="#">Blog</a>
+						
+					</li>
+					
+					
+					
+					<li>
+					<a href="#">About</a>
+			
+					</li>
+					
+					<li>
+					<a href="contact.html">Contact</a>
+					</li>
+					
+				</ul>
+				</nav>
+		</div>	
 </div>
 <div class="clear">
 </div>
@@ -78,25 +86,76 @@
 	<div class="row">
 		<div class="twelve columns">
 			<p class="left">
-				 CONTACT US
+				 PROJECT DETAIL
 			</p>
 			<p class="right">
-				 Get in touch today!
+				<a href="portofolio3.html">View more projects</a>
 			</p>
 		</div>
 	</div>
 </div>
+<div class="hr">
+</div>
+<!-- CONTENT 
+================================================== -->
 <div class="row">
-<div class="twelve columns noleftmargin">
-<p></p>
-<p></p>
-<h4>You can contact with:</h4>
-<p></p>
-<p>Email: kamyar.seifi@gmail.com </p>
-<p>Facebook Page:    Under Construction</p>
+	<!-- PROJECT DESCRIPTION-->
+	<div class="six columns">
+		<div class="sectiontitle">
+			<h4>Last Sound</h4>
+		</div>
+		<p>
+			This is a social media application for using your last.fm account with android operation system. Consistent look and User Experience (UX) is achieved using hybrid technology. While for better performance custom Java Libraries was created and used as API for the hybrid application. 
+		</p>
+		<dl class="tabs">
+			<dd class="active"><a href="#simple1">Features</a></dd>
+			<dd><a href="#simple2">Download Demo</a></dd>
+		</dl>
+		<ul class="tabs-content">
+			<li class="active" id="simple1Tab">
+			<p>
+			 For Design and Development of this program the following technologies are used:
+			</p>
+			<div class="six columns noleftmargin">
+				<p>
+					<img src="images/check.png" alt=""><b>Java (Native Android Programming Language)</b>
+				</p>
+				<p>
+					<img src="images/check.png" alt=""><b>Phonegap (Javascript, HTML, CSS)</b>
+				</p>
+			</div>
+			<div class="six columns">
+				<p>
+					<img src="images/check.png" alt=""><b>SQLlite</b>
+				</p>				
+			</div>
+			</li>
+			<li id="simple2Tab">
+			<p>
+			 Please click on the link to download the application:
+			</p>
+			 Download Last Sound Version 1.0 <a href="lastsound.apk">Here</a>
+			<p>
+			  
+			</p>
+			</li>
+		</ul>
+	</div>
+	<!-- end main content-->
+	<!-- SLIDER-->
+	<div class="six columns">
+		<div class="slider-wrapper theme-default">
+			<div id="slider" class="nivoSlider detailslider">
+				<img src="images/s2.png" data-thumb="" alt=""/>
+				<img src="images/s3.png" data-thumb="" alt=""/>
+				<img src="images/s1.png" data-thumb="" alt=""/>
+			</div>
+		</div>
+	</div>
+	<!-- end sliderr-->
+</div>
 
-</div>
-</div>
+
 <!-- FOOOTER 
 ================================================== -->
 <div id="footer">
@@ -106,7 +165,7 @@
 	</p>
 	<div class="four columns">
 		<h1>About US</h1>
-		 Keeping our passions alive!
+		 Keeping our clients statisfied!
 	</div>
 	<div class="four columns">
 		<h1>GET SOCIAL</h1>
@@ -131,11 +190,12 @@
 		</div>
 	</div>
 </div>
+
 <!-- JAVASCRIPTS 
 ================================================== -->
 <!-- Javascript files placed here for faster loading -->
 <script src="javascripts/foundation.min.js"></script>
-<script src="javascripts/formvalidation.js"></script>
+<script src="javascripts/jquery.nivo.slider.pack.js"></script>
 <script src="javascripts/jquery.cycle.js"></script>
 <script src="javascripts/app.js"></script>
 <script src="javascripts/modernizr.foundation.js"></script>
