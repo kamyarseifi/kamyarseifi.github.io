@@ -141,7 +141,7 @@ p {
   width: 100%;
   height: 300px;
   border-top-left-radius: 1px;
-  background-image: url(http://uploads.webflow.com/54003120a584c663122b82d4/54004b2da584c663122b84f1_Elegant_Background-8.jpg);
+  background-image: url(./Elegant_Background-8.jpg);
   background-size: cover;
 }
 .logo {
@@ -265,7 +265,7 @@ p {
   height: 490px;
   margin-bottom: 28px;
   background-color: #858f65;
-  background-image: url(http://uploads.webflow.com/54003120a584c663122b82d4/54004d17a584c663122b851b_Elegant_Background-2.jpg);
+  background-image: url(./Elegant_Background-2.jpg);
   box-shadow: #525151 0px 0px 6px 0px;
 }
 .porthead {
